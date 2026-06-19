@@ -10,7 +10,7 @@ from datetime import datetime
 # CONFIGURATION 
 
 # --- CAMERA I/O SETTINGS ---
-CAMERA_INDEX = 0       # Input camera index
+CAMERA_INDEX = 1       # Input camera index
 SAVE_OUTPUT_VIDEO = True                 # Flag to save the processed output video
 HEADLESS_MODE = False                   # Flag to run without GUI display
 TARGET_VIDEO_PATH = "pc_camera_record.mp4" # Output video file path
@@ -19,7 +19,7 @@ CONF_THRESHOLD = 0.4     # Minimum confidence score for detection
 DEVICE         = "cpu"    # Target device for inference
 
 VEHICLE_CLASSES = [2, 3, 5, 7]
-WINDOW_TITLE = "Vehicle Detection — Video Mode"
+WINDOW_TITLE = "Vehicle Detection — Live Camera Mode"
 DETECT_EVERY_N = 1   
 
 

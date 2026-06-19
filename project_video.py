@@ -10,10 +10,10 @@ from datetime import datetime
 # CONFIGURATION 
 
 # --- VIDEO I/O SETTINGS ---
-SOURCE_VIDEO_PATH = "Video Projesi 4.mp4"       # Input video file path
+SOURCE_VIDEO_PATH = "video2.mp4"       # Input video file path
 SAVE_OUTPUT_VIDEO = True                 # Flag to save the processed output video
 HEADLESS_MODE = False                   # Flag to run without GUI display
-TARGET_VIDEO_PATH = "sonuc_videosu_VP4.2.mp4" # Output video file path
+TARGET_VIDEO_PATH = "result_video2.mp4" # Output video file path
 INFER_SIZE     = 640      # YOLOv8 input size
 CONF_THRESHOLD = 0.4     # Minimum confidence score for detection
 DEVICE         = "cpu"    # Target device for inference

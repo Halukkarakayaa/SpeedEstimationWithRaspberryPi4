@@ -8,10 +8,10 @@ __pycache__/
 .DS_Store
 
 # Video and media files (To avoid GitHub's 100MB file size limit)
-*.mp4
-*.avi
-*.mov
-*.mkv
+# *.mp4
+# *.avi
+# *.mov
+# *.mkv
 
 # Output logs (Optional: remove if you want to push this to GitHub)
 traffic_log.json

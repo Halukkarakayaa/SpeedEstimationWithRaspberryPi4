@@ -1,0 +1,17 @@
+# Virtual environments
+venv/
+env/
+
+# Python cache and system files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Video and media files (To avoid GitHub's 100MB file size limit)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Output logs (Optional: remove if you want to push this to GitHub)
+traffic_log.json

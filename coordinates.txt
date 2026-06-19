@@ -1,0 +1,54 @@
+video1 coordinates
+
+SOURCE_PTS = np.array([
+    [1252,787],   # Sol üst
+    [2298,803],   # Sağ üst
+    [5039,2159],   # Sağ alt 
+    [-550,2159]     # Sol alt
+], dtype=np.float32)
+
+# Real-world metric coordinates of the reference area
+DEST_PTS = np.array([
+    [0, 0],       # Sol üst 
+    [25, 0],      # Sağ üst 
+    [25, 250],     # Sağ alt 
+    [0, 250]       # Sol alt 
+], dtype=np.float32)
+
+
+
+video2 coordinates
+
+SOURCE_PTS = np.array([
+    [2,300],   # Sol üst
+    [306,240],   # Sağ üst
+    [948,440],   # Sağ alt 
+    [486,630]     # Sol alt
+], dtype=np.float32)
+
+# Real-world metric coordinates of the reference area
+DEST_PTS = np.array([
+    [0, 0],       # Sol üst 
+    [10, 0],      # Sağ üst
+    [10, 17],     # Sağ alt 
+    [0, 17]       # Sol alt 
+], dtype=np.float32)
+
+
+
+video3 coordinates
+
+SOURCE_PTS = np.array([
+    [2143,978],       # Sol üst
+    [3033,974],     # Sağ üst
+    [4104,1713],     # Sağ alt 
+    [2277,1715]      # Sol alt
+], dtype=np.float32)
+
+# Real-world metric coordinates of the reference area
+DEST_PTS = np.array([
+    [0, 0],       # Sol üst
+    [10, 0],      # Sağ üst 
+    [10, 20],     # Sağ alt 
+    [0, 20]       # Sol alt 
+], dtype=np.float32)

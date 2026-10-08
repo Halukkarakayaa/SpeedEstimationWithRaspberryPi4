@@ -103,5 +103,3 @@ Despite the initial frame-rate drops experienced with the USB camera on the Rasp
 ##  Author
 
 **Haluk Karakaya**
-* [LinkedIn](https://linkedin.com/in/halukkarakayaa)
-* [GitHub](https://github.com/Halukkarakayaa)
